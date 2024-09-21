@@ -1,6 +1,6 @@
 {
   "name": "smh-ajv-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "AJV additional Keywords and Formats",
   "main": "lib/index.js",
   "scripts": {
@@ -32,7 +32,7 @@
     "keywords"
   ],
   "author": "S MUNI HARISH (smuniharish) <samamuniharish@gmail.com> (https://github.com/smuniharish/)",
-  "license": "Apache-2.0",
+  "license": "MIT with Partial Redistribution License",
   "devDependencies": {
     "@babel/parser": "^7.25.6",
     "@types/jest": "^29.5.13",

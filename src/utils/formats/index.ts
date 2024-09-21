@@ -14,20 +14,8 @@ const ajvCustomFormats: FormatI[] = [
       format: uuidFormat,
     },
     {
-      name: 'india-PAN',
-      format: indiaPANFormat,
-    },
-    {
       name: 'udyam',
       format: udyamFormat,
-    },
-    {
-      name: 'india-pincode',
-      format: pincodeFormat,
-    },
-    {
-      name: 'india-IFSC',
-      format: ifscFormat,
     },
     {
       name: 'positive-number-in-string',
@@ -40,6 +28,18 @@ const ajvCustomFormats: FormatI[] = [
     {
       name: 'iso8601-date-time',
       format: iso8601DurationFormat,
+    },
+    {
+      name: 'india-PAN',
+      format: indiaPANFormat,
+    },
+    {
+      name: 'india-pincode',
+      format: pincodeFormat,
+    },
+    {
+      name: 'india-IFSC',
+      format: ifscFormat,
     },
   ];
   export default ajvCustomFormats
