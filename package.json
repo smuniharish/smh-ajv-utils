@@ -1,8 +1,9 @@
 {
   "name": "smh-ajv-utils",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "AJV additional Keywords and Formats",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
@@ -32,7 +33,7 @@
     "keywords"
   ],
   "author": "S MUNI HARISH (smuniharish) <samamuniharish@gmail.com> (https://github.com/smuniharish/)",
-  "license": "MIT with Partial Redistribution License",
+  "license": "MIT",
   "devDependencies": {
     "@babel/parser": "^7.25.6",
     "@types/jest": "^29.5.13",
@@ -55,8 +56,6 @@
   },
   "dependencies": {
     "ajv": "^8.17.1",
-    "smh-ajv-utils": "file:",
-    "smh-otp-utils": "file:",
     "uuid": "^10.0.0"
   }
 }
