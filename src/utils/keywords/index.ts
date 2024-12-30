@@ -1,4 +1,4 @@
-import decimalPrecisionKeyword from "./decimalPrecision";
+import decimalPrecisionKeyword from './decimalPrecision';
 
 const ajvCustomKeywords = [decimalPrecisionKeyword];
-export default ajvCustomKeywords
+export default ajvCustomKeywords;

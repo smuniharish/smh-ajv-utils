@@ -1,3 +1,3 @@
-import { ajvCustomFormatsRegistry, ajvCustomKeywordsRegistry } from "./functions";
+import { ajvCustomFormatsRegistry, ajvCustomKeywordsRegistry } from './functions';
 
-export {ajvCustomFormatsRegistry,ajvCustomKeywordsRegistry}
+export { ajvCustomFormatsRegistry, ajvCustomKeywordsRegistry };
