@@ -1,4 +1,4 @@
-import { FormatDefinition } from "ajv";
+import { FormatDefinition } from 'ajv';
 interface FormatI {
     name: string;
     format: FormatDefinition<any>;

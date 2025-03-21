@@ -1,3 +1,3 @@
-import { FormatDefinition } from "ajv";
+import { FormatDefinition } from 'ajv';
 declare const udyamFormat: FormatDefinition<string>;
 export default udyamFormat;

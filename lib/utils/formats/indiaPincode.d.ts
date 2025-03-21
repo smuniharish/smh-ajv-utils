@@ -1,3 +1,3 @@
-import { FormatDefinition } from "ajv";
+import { FormatDefinition } from 'ajv';
 declare const pincodeFormat: FormatDefinition<string>;
 export default pincodeFormat;

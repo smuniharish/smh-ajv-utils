@@ -1,5 +1,6 @@
 import ifscFormat from './indiaIFSC';
 import indiaPANFormat from './indiaPAN';
+import indiaPersonalPANFormat from './indiaPersonalPAN';
 import pincodeFormat from './indiaPincode';
 import FormatI from './interfaces/FormatI.interface';
 import iso8601DurationFormat from './iso8601Duration';
@@ -32,6 +33,10 @@ const ajvCustomFormats: FormatI[] = [
   {
     name: 'india-PAN',
     format: indiaPANFormat,
+  },
+  {
+    name: 'india-Personal-PAN',
+    format: indiaPersonalPANFormat,
   },
   {
     name: 'india-pincode',
