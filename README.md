@@ -272,7 +272,7 @@ To keep this library maintained and up-to-date please consider [sponsoring it on
 
 ## License
 
-[MIT with Partial Redistribution License](./LICENSE)
+[Apache License 2.0](./LICENSE)
 
 ---
 
